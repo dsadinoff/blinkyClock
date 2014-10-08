@@ -1,12 +1,12 @@
 /*
-create a clock.
+A simple clock.
 
 hour is red
-min is green
+min is green 
 sec is blue
 /60 sec is white
 */
-#include "FastLED.h"
+#include "FastLED.h" // http://fastled.io/
 #include <Button.h> // http://github.com/virgildisgr4ce/Button
 
 #define NUM_LEDS 60
